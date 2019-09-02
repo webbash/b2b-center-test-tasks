@@ -31,7 +31,7 @@ SET time_zone = "+00:00";
 CREATE TABLE `phone_numbers` (
   `id` int(11) NOT NULL,
   `user_id` int(11) NOT NULL,
-  `phone` varchar(255) NOT NULL
+  `phone` varchar(255) NOT NULL UNIQUE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
