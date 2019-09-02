@@ -9,6 +9,11 @@ namespace Task3;
 class User implements EntityInterface
 {
     /**
+     * @var int
+     */
+    public $id;
+
+    /**
      * @param int $userId
      * @return User
      */

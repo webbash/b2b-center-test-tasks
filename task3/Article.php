@@ -9,6 +9,21 @@ namespace Task3;
 class Article implements EntityInterface
 {
     /**
+     * @var int
+     */
+    public $id;
+
+    /**
+     * @var string
+     */
+    public $name;
+
+    /**
+     * @var User
+     */
+    private $author;
+
+    /**
      * @param int $articleId
      * @return Article
      */
